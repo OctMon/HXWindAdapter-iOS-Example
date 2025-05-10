@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80162D00EDE2884B78FB1501 /* Pods_HXWindAdapter_iOS_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1640B331B51E7C7AE7484C22 /* Pods_HXWindAdapter_iOS_ExampleTests.framework */; };
+		CF374D3C0DFD5919B1BDB25E /* Pods_HXWindAdapter_iOS_Example_HXWindAdapter_iOS_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E4FD0FA49C3A8F086B22C4 /* Pods_HXWindAdapter_iOS_Example_HXWindAdapter_iOS_ExampleUITests.framework */; };
+		D1764186F41C7B59A5DA69A1 /* Pods_HXWindAdapter_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6317491B1643B7DB37116D66 /* Pods_HXWindAdapter_iOS_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4AAD51C2DCE548000F51A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4AAD4F82DCE547F00F51A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4AAD4FF2DCE547F00F51A49;
+			remoteInfo = "HXWindAdapter-iOS-Example";
+		};
+		E4AAD5262DCE548000F51A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4AAD4F82DCE547F00F51A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4AAD4FF2DCE547F00F51A49;
+			remoteInfo = "HXWindAdapter-iOS-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1640B331B51E7C7AE7484C22 /* Pods_HXWindAdapter_iOS_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXWindAdapter_iOS_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E9BD7E41DE394AD4466900 /* Pods-HXWindAdapter-iOS-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXWindAdapter-iOS-ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-HXWindAdapter-iOS-ExampleTests/Pods-HXWindAdapter-iOS-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		6317491B1643B7DB37116D66 /* Pods_HXWindAdapter_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXWindAdapter_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64600778E0F36BD013153617 /* Pods-HXWindAdapter-iOS-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXWindAdapter-iOS-Example.debug.xcconfig"; path = "Target Support Files/Pods-HXWindAdapter-iOS-Example/Pods-HXWindAdapter-iOS-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		66C1C2667EBFCD97B3567573 /* Pods-HXWindAdapter-iOS-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXWindAdapter-iOS-Example.release.xcconfig"; path = "Target Support Files/Pods-HXWindAdapter-iOS-Example/Pods-HXWindAdapter-iOS-Example.release.xcconfig"; sourceTree = "<group>"; };
+		7B564F144C112F69E5974C5A /* Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests/Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0BEEA28B32DF535FAA7EAD3 /* Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests/Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C2E4FD0FA49C3A8F086B22C4 /* Pods_HXWindAdapter_iOS_Example_HXWindAdapter_iOS_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXWindAdapter_iOS_Example_HXWindAdapter_iOS_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6BCB2CFC0C18AC1461E2801 /* Pods-HXWindAdapter-iOS-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXWindAdapter-iOS-ExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-HXWindAdapter-iOS-ExampleTests/Pods-HXWindAdapter-iOS-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4AAD5002DCE547F00F51A49 /* HXWindAdapter-iOS-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HXWindAdapter-iOS-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AAD51B2DCE548000F51A49 /* HXWindAdapter-iOS-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HXWindAdapter-iOS-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AAD5252DCE548000F51A49 /* HXWindAdapter-iOS-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HXWindAdapter-iOS-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E4AAD52D2DCE548000F51A49 /* Exceptions for "HXWindAdapter-iOS-Example" folder in "HXWindAdapter-iOS-Example" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E4AAD4FF2DCE547F00F51A49 /* HXWindAdapter-iOS-Example */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E4AAD5022DCE547F00F51A49 /* HXWindAdapter-iOS-Example */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E4AAD52D2DCE548000F51A49 /* Exceptions for "HXWindAdapter-iOS-Example" folder in "HXWindAdapter-iOS-Example" target */,
+			);
+			path = "HXWindAdapter-iOS-Example";
+			sourceTree = "<group>";
+		};
+		E4AAD51E2DCE548000F51A49 /* HXWindAdapter-iOS-ExampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HXWindAdapter-iOS-ExampleTests";
+			sourceTree = "<group>";
+		};
+		E4AAD5282DCE548000F51A49 /* HXWindAdapter-iOS-ExampleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HXWindAdapter-iOS-ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4AAD4FD2DCE547F00F51A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1764186F41C7B59A5DA69A1 /* Pods_HXWindAdapter_iOS_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AAD5182DCE548000F51A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80162D00EDE2884B78FB1501 /* Pods_HXWindAdapter_iOS_ExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AAD5222DCE548000F51A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF374D3C0DFD5919B1BDB25E /* Pods_HXWindAdapter_iOS_Example_HXWindAdapter_iOS_ExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C5271680093D2DF335CEFFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64600778E0F36BD013153617 /* Pods-HXWindAdapter-iOS-Example.debug.xcconfig */,
+				66C1C2667EBFCD97B3567573 /* Pods-HXWindAdapter-iOS-Example.release.xcconfig */,
+				7B564F144C112F69E5974C5A /* Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests.debug.xcconfig */,
+				A0BEEA28B32DF535FAA7EAD3 /* Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests.release.xcconfig */,
+				D6BCB2CFC0C18AC1461E2801 /* Pods-HXWindAdapter-iOS-ExampleTests.debug.xcconfig */,
+				31E9BD7E41DE394AD4466900 /* Pods-HXWindAdapter-iOS-ExampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4AAD4F72DCE547F00F51A49 = {
+			isa = PBXGroup;
+			children = (
+				E4AAD5022DCE547F00F51A49 /* HXWindAdapter-iOS-Example */,
+				E4AAD51E2DCE548000F51A49 /* HXWindAdapter-iOS-ExampleTests */,
+				E4AAD5282DCE548000F51A49 /* HXWindAdapter-iOS-ExampleUITests */,
+				E4AAD5012DCE547F00F51A49 /* Products */,
+				9C5271680093D2DF335CEFFE /* Pods */,
+				EE2128B819DC4F5360F24F4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E4AAD5012DCE547F00F51A49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4AAD5002DCE547F00F51A49 /* HXWindAdapter-iOS-Example.app */,
+				E4AAD51B2DCE548000F51A49 /* HXWindAdapter-iOS-ExampleTests.xctest */,
+				E4AAD5252DCE548000F51A49 /* HXWindAdapter-iOS-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE2128B819DC4F5360F24F4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6317491B1643B7DB37116D66 /* Pods_HXWindAdapter_iOS_Example.framework */,
+				C2E4FD0FA49C3A8F086B22C4 /* Pods_HXWindAdapter_iOS_Example_HXWindAdapter_iOS_ExampleUITests.framework */,
+				1640B331B51E7C7AE7484C22 /* Pods_HXWindAdapter_iOS_ExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4AAD4FF2DCE547F00F51A49 /* HXWindAdapter-iOS-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4AAD52E2DCE548000F51A49 /* Build configuration list for PBXNativeTarget "HXWindAdapter-iOS-Example" */;
+			buildPhases = (
+				A76AC9958062887D73DFFA2C /* [CP] Check Pods Manifest.lock */,
+				E4AAD4FC2DCE547F00F51A49 /* Sources */,
+				E4AAD4FD2DCE547F00F51A49 /* Frameworks */,
+				E4AAD4FE2DCE547F00F51A49 /* Resources */,
+				EB40E1F94FE6D481F8243237 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E4AAD5022DCE547F00F51A49 /* HXWindAdapter-iOS-Example */,
+			);
+			name = "HXWindAdapter-iOS-Example";
+			productName = "HXWindAdapter-iOS-Example";
+			productReference = E4AAD5002DCE547F00F51A49 /* HXWindAdapter-iOS-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4AAD51A2DCE548000F51A49 /* HXWindAdapter-iOS-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4AAD5332DCE548000F51A49 /* Build configuration list for PBXNativeTarget "HXWindAdapter-iOS-ExampleTests" */;
+			buildPhases = (
+				C2A71B1F6047B74A8151F87F /* [CP] Check Pods Manifest.lock */,
+				E4AAD5172DCE548000F51A49 /* Sources */,
+				E4AAD5182DCE548000F51A49 /* Frameworks */,
+				E4AAD5192DCE548000F51A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4AAD51D2DCE548000F51A49 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E4AAD51E2DCE548000F51A49 /* HXWindAdapter-iOS-ExampleTests */,
+			);
+			name = "HXWindAdapter-iOS-ExampleTests";
+			productName = "HXWindAdapter-iOS-ExampleTests";
+			productReference = E4AAD51B2DCE548000F51A49 /* HXWindAdapter-iOS-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4AAD5242DCE548000F51A49 /* HXWindAdapter-iOS-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4AAD5362DCE548000F51A49 /* Build configuration list for PBXNativeTarget "HXWindAdapter-iOS-ExampleUITests" */;
+			buildPhases = (
+				262B16EA59D04C504DF4DC85 /* [CP] Check Pods Manifest.lock */,
+				E4AAD5212DCE548000F51A49 /* Sources */,
+				E4AAD5222DCE548000F51A49 /* Frameworks */,
+				E4AAD5232DCE548000F51A49 /* Resources */,
+				ABF1CF0474A44CE23444964E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4AAD5272DCE548000F51A49 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E4AAD5282DCE548000F51A49 /* HXWindAdapter-iOS-ExampleUITests */,
+			);
+			name = "HXWindAdapter-iOS-ExampleUITests";
+			productName = "HXWindAdapter-iOS-ExampleUITests";
+			productReference = E4AAD5252DCE548000F51A49 /* HXWindAdapter-iOS-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4AAD4F82DCE547F00F51A49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					E4AAD4FF2DCE547F00F51A49 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					E4AAD51A2DCE548000F51A49 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E4AAD4FF2DCE547F00F51A49;
+					};
+					E4AAD5242DCE548000F51A49 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E4AAD4FF2DCE547F00F51A49;
+					};
+				};
+			};
+			buildConfigurationList = E4AAD4FB2DCE547F00F51A49 /* Build configuration list for PBXProject "HXWindAdapter-iOS-Example" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4AAD4F72DCE547F00F51A49;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E4AAD5012DCE547F00F51A49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4AAD4FF2DCE547F00F51A49 /* HXWindAdapter-iOS-Example */,
+				E4AAD51A2DCE548000F51A49 /* HXWindAdapter-iOS-ExampleTests */,
+				E4AAD5242DCE548000F51A49 /* HXWindAdapter-iOS-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4AAD4FE2DCE547F00F51A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AAD5192DCE548000F51A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AAD5232DCE548000F51A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		262B16EA59D04C504DF4DC85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A76AC9958062887D73DFFA2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXWindAdapter-iOS-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF1CF0474A44CE23444964E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests/Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests/Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests/Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A71B1F6047B74A8151F87F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXWindAdapter-iOS-ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB40E1F94FE6D481F8243237 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HXWindAdapter-iOS-Example/Pods-HXWindAdapter-iOS-Example-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HXWindAdapter-iOS-Example/Pods-HXWindAdapter-iOS-Example-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HXWindAdapter-iOS-Example/Pods-HXWindAdapter-iOS-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4AAD4FC2DCE547F00F51A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AAD5172DCE548000F51A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AAD5212DCE548000F51A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4AAD51D2DCE548000F51A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4AAD4FF2DCE547F00F51A49 /* HXWindAdapter-iOS-Example */;
+			targetProxy = E4AAD51C2DCE548000F51A49 /* PBXContainerItemProxy */;
+		};
+		E4AAD5272DCE548000F51A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4AAD4FF2DCE547F00F51A49 /* HXWindAdapter-iOS-Example */;
+			targetProxy = E4AAD5262DCE548000F51A49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4AAD52F2DCE548000F51A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64600778E0F36BD013153617 /* Pods-HXWindAdapter-iOS-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2HHTRN5N5L;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HXWindAdapter-iOS-Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxad.sdk.hxwa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4AAD5302DCE548000F51A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C1C2667EBFCD97B3567573 /* Pods-HXWindAdapter-iOS-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2HHTRN5N5L;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HXWindAdapter-iOS-Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxad.sdk.hxwa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4AAD5312DCE548000F51A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4AAD5322DCE548000F51A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4AAD5342DCE548000F51A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BCB2CFC0C18AC1461E2801 /* Pods-HXWindAdapter-iOS-ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hxad.sdk.HXWindAdapter-iOS-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXWindAdapter-iOS-Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HXWindAdapter-iOS-Example";
+			};
+			name = Debug;
+		};
+		E4AAD5352DCE548000F51A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E9BD7E41DE394AD4466900 /* Pods-HXWindAdapter-iOS-ExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hxad.sdk.HXWindAdapter-iOS-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXWindAdapter-iOS-Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HXWindAdapter-iOS-Example";
+			};
+			name = Release;
+		};
+		E4AAD5372DCE548000F51A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B564F144C112F69E5974C5A /* Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hxad.sdk.HXWindAdapter-iOS-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HXWindAdapter-iOS-Example";
+			};
+			name = Debug;
+		};
+		E4AAD5382DCE548000F51A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0BEEA28B32DF535FAA7EAD3 /* Pods-HXWindAdapter-iOS-Example-HXWindAdapter-iOS-ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hxad.sdk.HXWindAdapter-iOS-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HXWindAdapter-iOS-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4AAD4FB2DCE547F00F51A49 /* Build configuration list for PBXProject "HXWindAdapter-iOS-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AAD5312DCE548000F51A49 /* Debug */,
+				E4AAD5322DCE548000F51A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4AAD52E2DCE548000F51A49 /* Build configuration list for PBXNativeTarget "HXWindAdapter-iOS-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AAD52F2DCE548000F51A49 /* Debug */,
+				E4AAD5302DCE548000F51A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4AAD5332DCE548000F51A49 /* Build configuration list for PBXNativeTarget "HXWindAdapter-iOS-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AAD5342DCE548000F51A49 /* Debug */,
+				E4AAD5352DCE548000F51A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4AAD5362DCE548000F51A49 /* Build configuration list for PBXNativeTarget "HXWindAdapter-iOS-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AAD5372DCE548000F51A49 /* Debug */,
+				E4AAD5382DCE548000F51A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4AAD4F82DCE547F00F51A49 /* Project object */;
+}
