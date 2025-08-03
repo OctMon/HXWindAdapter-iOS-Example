@@ -16,7 +16,7 @@
 }
 
 - (NSString *)getPlacementId {
-    return @"8551576866216473";
+    return @"8929141156664254";
 }
 
 - (BOOL)hasLogo {

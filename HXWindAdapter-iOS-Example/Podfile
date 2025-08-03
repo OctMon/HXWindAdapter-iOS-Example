@@ -10,7 +10,7 @@ target 'HXWindAdapter-iOS-Example' do
   # Pods for HXWindAdapter-iOS-Example
   pod 'ToBid-iOS', '4.1.11'
   pod 'AnyThinkiOS','6.3.75'
-  pod 'HXSDK', :path => '../../HXSDK'
+  pod 'HXSDK', '~> 4.4.1'
 
   target 'HXWindAdapter-iOS-ExampleTests' do
     inherit! :search_paths

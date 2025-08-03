@@ -3,7 +3,6 @@
 
 @interface HXWMConfigCustomAdapter ()
 @property (nonatomic, weak) id<AWMCustomConfigAdapterBridge> bridge;
-@property (nonatomic, strong) HXPrivacyConfig *hxAdConfig;
 @end
 
 @implementation HXWMConfigCustomAdapter
@@ -26,7 +25,7 @@
 - (void)initializeAdapterWithConfiguration:(AWMSdkInitConfig *)initConfig {
     NSString *appId = [initConfig.extra objectForKey:@"appId"];
     
-    [HXSDK initWithAppIdWithAppId:appId];
+    [HXSDK setAppId:appId];
     
     dispatch_async(dispatch_get_main_queue(), ^{
         [self.bridge initializeAdapterSuccess:self];
@@ -34,8 +33,6 @@
 }
 - (void)didRequestAdPrivacyConfigUpdate:(NSDictionary *)config {
     [WindMillAds getPersonalizedAdvertisingState];
-    HXPrivacyConfig *privacyConf = [[HXPrivacyConfig alloc] init];
-    self.hxAdConfig = privacyConf;
 }
 
 
