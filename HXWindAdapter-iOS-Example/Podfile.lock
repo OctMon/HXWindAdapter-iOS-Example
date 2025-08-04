@@ -1,21 +1,23 @@
 PODS:
-  - AnyThinkiOS (6.3.75):
-    - AnyThinkiOS/AnyThinkSDK (= 6.3.75)
-  - AnyThinkiOS/AnyThinkSDK (6.3.75)
+  - AnyThinkiOS (6.4.87):
+    - AnyThinkiOS/AnyThinkSDK (= 6.4.87)
+  - AnyThinkiOS/AnyThinkSDK (6.4.87)
   - HXSDK (4.4.1):
     - HXSDK/Core (= 4.4.1)
     - PTGAdFramework (~> 2.2.80)
   - HXSDK/Core (4.4.1):
     - PTGAdFramework (~> 2.2.80)
+  - HXToBidAdapter (1.0.0):
+    - AnyThinkiOS (= 6.4.87)
+    - HXSDK (= 4.4.1)
+    - ToBid-iOS (= 4.1.11)
   - PTGAdFramework (2.2.80)
   - ToBid-iOS (4.1.11):
     - ToBid-iOS/ToBidSDK (= 4.1.11)
   - ToBid-iOS/ToBidSDK (4.1.11)
 
 DEPENDENCIES:
-  - AnyThinkiOS (= 6.3.75)
-  - HXSDK (~> 4.4.1)
-  - ToBid-iOS (= 4.1.11)
+  - HXToBidAdapter (from `../../HXWindAdapter-iOS`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -24,12 +26,17 @@ SPEC REPOS:
     - PTGAdFramework
     - ToBid-iOS
 
+EXTERNAL SOURCES:
+  HXToBidAdapter:
+    :path: "../../HXWindAdapter-iOS"
+
 SPEC CHECKSUMS:
-  AnyThinkiOS: 62fad7c352ff14639d0c0bc1496e874e3e11c271
+  AnyThinkiOS: 1f0b005f40ad8d06d548b0e68a0b8bcfeb3ce541
   HXSDK: 52d91b0093ad7ed81f4ca956f06bbde6108654e3
+  HXToBidAdapter: 6cd480df0ef9689383a1c3c7de25c312d3948a46
   PTGAdFramework: bc4153b8e204a7f810a910d829735e54acbc040f
   ToBid-iOS: c7890fcc9f2d3453c16ed719f391a5e48418ec92
 
-PODFILE CHECKSUM: 544e95b5ce76015206bd73a6f6d7be23b73aca04
+PODFILE CHECKSUM: a1db0b271edb4e7205b8c5f5952d0100130eff52
 
 COCOAPODS: 1.16.2
