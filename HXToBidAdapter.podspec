@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'HXToBidAdapter'
-  s.version      = '1.0.0'
+  s.version      = '1.0.1'
   s.summary      = 'HXSDK 适配器, 用于在ToBid聚合SDK请求广告'
   s.homepage     = 'https://github.com/OctMon/HXWindAdapter-iOS.git'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
   
-  s.dependency 'AnyThinkiOS', '6.4.87'
-  s.dependency 'HXSDK', '4.4.1'
-  s.dependency 'ToBid-iOS', '4.1.11'
+  s.dependency 'AnyThinkiOS', '6.4.90'
+  s.dependency 'HXSDK', '4.4.6'
+  s.dependency 'ToBid-iOS', '4.6.0'
   
 end

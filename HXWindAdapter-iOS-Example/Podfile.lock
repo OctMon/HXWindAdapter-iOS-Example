@@ -1,20 +1,20 @@
 PODS:
-  - AnyThinkiOS (6.4.87):
-    - AnyThinkiOS/AnyThinkSDK (= 6.4.87)
-  - AnyThinkiOS/AnyThinkSDK (6.4.87)
-  - HXSDK (4.4.1):
-    - HXSDK/Core (= 4.4.1)
+  - AnyThinkiOS (6.4.90):
+    - AnyThinkiOS/AnyThinkSDK (= 6.4.90)
+  - AnyThinkiOS/AnyThinkSDK (6.4.90)
+  - HXSDK (4.4.6):
+    - HXSDK/Core (= 4.4.6)
     - PTGAdFramework (~> 2.2.80)
-  - HXSDK/Core (4.4.1):
+  - HXSDK/Core (4.4.6):
     - PTGAdFramework (~> 2.2.80)
-  - HXToBidAdapter (1.0.0):
-    - AnyThinkiOS (= 6.4.87)
-    - HXSDK (= 4.4.1)
-    - ToBid-iOS (= 4.1.11)
-  - PTGAdFramework (2.2.80)
-  - ToBid-iOS (4.1.11):
-    - ToBid-iOS/ToBidSDK (= 4.1.11)
-  - ToBid-iOS/ToBidSDK (4.1.11)
+  - HXToBidAdapter (1.0.1):
+    - AnyThinkiOS (= 6.4.90)
+    - HXSDK (= 4.4.6)
+    - ToBid-iOS (= 4.6.0)
+  - PTGAdFramework (2.2.81)
+  - ToBid-iOS (4.6.0):
+    - ToBid-iOS/ToBidSDK (= 4.6.0)
+  - ToBid-iOS/ToBidSDK (4.6.0)
 
 DEPENDENCIES:
   - HXToBidAdapter (from `../../HXWindAdapter-iOS`)
@@ -31,11 +31,11 @@ EXTERNAL SOURCES:
     :path: "../../HXWindAdapter-iOS"
 
 SPEC CHECKSUMS:
-  AnyThinkiOS: 1f0b005f40ad8d06d548b0e68a0b8bcfeb3ce541
-  HXSDK: 52d91b0093ad7ed81f4ca956f06bbde6108654e3
-  HXToBidAdapter: 6cd480df0ef9689383a1c3c7de25c312d3948a46
-  PTGAdFramework: bc4153b8e204a7f810a910d829735e54acbc040f
-  ToBid-iOS: c7890fcc9f2d3453c16ed719f391a5e48418ec92
+  AnyThinkiOS: 1260226bc4dcf2fb15c2aa648eaf7099a3d1c019
+  HXSDK: 3423d0a3a04ee58f6288733441c6024be4ac6f05
+  HXToBidAdapter: 5ff70e71d2b5c9fbf353a4de2702948e79fabecf
+  PTGAdFramework: 2b9f81df87d925f4ebdbf4adda56ea20e92250c0
+  ToBid-iOS: 310ce973818a0c86e3d480a760062849c6316774
 
 PODFILE CHECKSUM: a1db0b271edb4e7205b8c5f5952d0100130eff52
 
